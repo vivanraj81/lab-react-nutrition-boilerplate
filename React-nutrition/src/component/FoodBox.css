@@ -1,0 +1,49 @@
+img{
+    width: 100px;
+  }
+
+  article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    border-bottom: 1px black solid;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-top: 1px black solid;
+  }
+
+
+
+  .searchBox{
+    text-align: center;
+    margin: 10px;
+  }
+
+  .searchBox input{
+    height: 5vh;
+    width: 40vw;
+    border-radius: 15px;
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+  .field{
+    display: flex;
+  }
+
+  .media-content{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px black solid; */
+    width: 5vw;
+  }
+
+  .reset{
+    padding: 0.5%;
+  }
